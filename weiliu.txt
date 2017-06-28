@@ -1,0 +1,25 @@
+#Question 1
+
+mkdir ~/git_proj/test
+cd git_proj/test
+git init
+echo Git is good > a.txt
+git status
+git add .
+git commit -m "Add a.txt"
+
+#Question 2 
+
+mkdir ~/git_proj/test/subtest
+cd subtest
+echo This is Wei > b.txt
+cd ~/git_proj/test
+vi a1.txt
+vi a2.txt
+git add . 
+git commit -m"Add a1.txt and a2.txt"
+git reflog
+
+git remote add origin https://github.com/LLLLLLLLL1516/test.git
+git remote -v
+
